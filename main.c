@@ -8,16 +8,16 @@ uint32 steerduty=SteerMid;
 extern void img_transform();
 extern  uint8 whiteR[60][5];
 
-//舵机+++向左。716
+//露忙禄煤+++脧貌脳贸隆拢716
    void  main(void)
 {  
   
-  DisableInterrupts;                                                  //关闭总中断
+  DisableInterrupts;                                                  //鹿脴卤脮脳脺脰脨露脧
   system_init(); 
   uart_clear();
   EnableInterrupts;  
   gpio_init (PTA13, GPO,0);
-  printf("\n\n\nNOTICE:Version2016.01.31");
+  printf("\n\n\nNOTICE:Version2016.02.01");
   uint8 con=0;
   while(1)
   {   
