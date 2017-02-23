@@ -4,10 +4,10 @@
 #include "include.h"
 
 
-#define judge 95    //±ß½çãĞÖµ
-#define SteerMid 767//¶æ»úÖĞÖµ£¨10000¾«¶È£©
+#define judge 95    //è¾¹ç•Œé˜ˆ       å€¼
+#define SteerMid 767//èˆµæœºä¸­å€¼ï¼ˆ10000ç²¾åº¦ï¼‰
 #define Kp1 2.5
-#define Kp2 1.25 //ÓÉĞ±ÂÊ¹ØÏµ£¬ÈôÔÚÁ½¶ÎÇúÏßÖ®¼äµÄ½áºÏµã¿ÉÎ¢£¬ÔòKp2=Kp1µÄÒ»°ë
+#define Kp2 1.25 //ç”±æ–œç‡å…³ç³»ï¼Œè‹¥åœ¨ä¸¤æ®µæ›²çº¿ä¹‹é—´çš„ç»“åˆç‚¹å¯å¾®ï¼Œåˆ™Kp2=Kp1çš„ä¸€åŠ
 #define E1 20
 #define E2 50
 #define Kv 1
